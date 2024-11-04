@@ -19,6 +19,7 @@ import Messages from './components/message/message'
 import "vue-easytable/libs/theme-default/index.css";
 import  '@/assets/css/public.scss'
 import "@/assets/css/index.scss"
+import './assets/css/tailwind.css'
 
 
 import * as filters from '@/directives/filters'

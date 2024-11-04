@@ -1,10 +1,3 @@
-<!--
- * @Author: daidai
- * @Date: 2022-03-01 09:43:37
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-09-09 11:40:22
- * @FilePath: \web-pc\src\pages\big-screen\view\indexs\left-bottom.vue
--->
 <template>
   <div
     v-if="pageflag"

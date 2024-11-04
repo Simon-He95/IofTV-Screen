@@ -1,10 +1,3 @@
-<!--
- * @Author: daidai
- * @Date: 2022-03-01 15:27:58
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-05-07 11:24:14
- * @FilePath: \web-pc\src\pages\big-screen\view\indexs\right-center.vue
--->
 <template>
   <div v-if="pageflag" class="right_center_wrap beautify-scroll-def" :class="{ 'overflow-y-auto': !sbtxSwiperFlag }">
     <component :is="components" :data="list" :class-option="defaultOption">
@@ -75,7 +68,6 @@ export default {
         singleHeight: 250, 
         step:0,
       }
-
     };
   },
   computed: {

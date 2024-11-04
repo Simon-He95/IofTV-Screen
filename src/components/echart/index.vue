@@ -1,10 +1,3 @@
-<!--
- * @Author: daidai
- * @Date: 2022-02-28 16:29:08
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-09-27 15:05:45
- * @FilePath: \web-pc\src\pages\big-screen\components\echart\index.vue
--->
 <template>
   <div :id="id" :class="className" :style="{ height: height, width: width }" />
 </template>

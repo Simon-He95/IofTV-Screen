@@ -1,10 +1,3 @@
-<!--
- * @Author: daidai
- * @Date: 2022-03-01 14:13:04
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-09-27 15:04:49
- * @FilePath: \web-pc\src\pages\big-screen\view\indexs\right-top.vue
--->
 <template>
   <Echart
     id="rightTop"
@@ -28,9 +21,6 @@ export default {
       pageflag: false,
       timer: null,
     };
-  },
-  created() {
-   
   },
 
   mounted() {

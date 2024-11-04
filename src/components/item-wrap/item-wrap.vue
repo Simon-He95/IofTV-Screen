@@ -1,10 +1,3 @@
-<!--
- * @Author: daidai
- * @Date: 2022-03-01 09:16:22
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-09-29 15:12:34
- * @FilePath: \web-pc\src\pages\big-screen\components\item-wrap\item-wrap.vue
--->
 <template>
   <dv-border-box-13 class="lr_titles">
     <div class="item_title" v-if="title !== ''">

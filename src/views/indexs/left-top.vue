@@ -1,10 +1,3 @@
-<!--
- * @Author: daidai
- * @Date: 2022-02-28 16:16:42
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-07-20 17:57:11
- * @FilePath: \web-pc\src\pages\big-screen\view\indexs\left-center.vue
--->
 <template>
     <ul class="user_Overview flex" v-if="pageflag">
         <li class="user_Overview-item" style="color: #00fdfa">
@@ -106,7 +99,6 @@ export default {
     },
     beforeDestroy() {
         this.clearData()
-
     },
     methods: {
         clearData() {

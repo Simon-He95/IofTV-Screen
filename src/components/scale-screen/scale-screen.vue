@@ -1,8 +1,3 @@
-<!--
- * @Author: wei
- * @description: 大屏自适应容器组件
- * @LastEditTime: 2022-09-09 16:42:40
--->
 <template>
   <!-- <section class="screen-box" :style="boxStyle"> -->
   <div class="screen-wrapper" ref="screenWrapper" :style="wrapperStyle">
